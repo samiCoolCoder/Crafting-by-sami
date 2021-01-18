@@ -1,0 +1,54 @@
+h1
+{
+   color: rgb(194, 36, 15);
+  
+  padding-left:30px ;
+}
+
+.head *{ border:solid;}
+.head{background-color:rgb(19, 58, 141) ; display:flex;justify-content: space-between;}
+.grid{display: flex;flex-wrap: wrap;justify-content: space-evenly;}
+.footer{display: flex;justify-content:flex-end ;}
+
+
+body{background-color:#aa9911;}
+a:link
+{
+   color: blue;
+}
+
+a:visited
+{
+   color: rgb(190, 30, 30);
+}
+.menu
+{
+   margin-right: 30px;
+}
+
+.menu a
+{
+   margin-left:20px ;
+}
+
+.item
+{
+
+   position: relative;
+}
+.item p{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+.item:hover p
+{
+   opacity:1;
+}
+
+.item:hover img
+{
+   opacity: 0.5;
+}
+
